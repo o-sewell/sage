@@ -1,0 +1,1563 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+
+figcaption,
+figure,
+main { /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+
+details, /* 1 */
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*========== End of Normalize ====================================================*/
+
+*{
+	box-sizing: border-box;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Adelle Sans Sage Bold';
+  src:  url('../fonts/AdelleSansSAGE-Bold_gdi.woff2') format('woff2'),
+        url('../fonts/AdelleSansSAGE-Bold_gdi.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Adelle Sans Sage';
+  src:  url('../fonts/AdelleSansSAGE_gdi.woff2') format('woff2'),
+        url('../fonts/AdelleSansSAGE_gdi.woff') format('woff');
+  font-weight: light;
+}
+
+body {
+	font-family: "Adelle Sans Sage Bold", serif;
+}
+
+.nav {
+	padding: .25em 0;
+}
+
+.nav__logo {
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 28px;
+}
+
+.nav__menu {
+	text-align: center;
+	-webkit-padding-start: 0;
+	margin: 0;
+}
+
+.nav__menu li {
+	display: inline-block;
+	margin-left: .5em;
+}
+
+.nav__menu li a {
+	text-decoration: none;
+	font-size: 10px;
+	color: #2C2A29;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	line-height: 1;
+	transition: color .3s ease-out;
+
+}
+
+.nav__menu li a:hover {
+	color: #0FDE0F;
+}
+
+@media(min-width: 769px) {
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1em 0;
+	}
+
+	.nav__logo {
+		display: flex;
+		margin-left: 3.5em;
+	}
+
+	.nav__logo a  {
+		align-self: center;
+	}
+
+
+	.nav__menu {
+		margin-right: 3.5em;
+	}
+
+	.nav__menu li {
+		margin-left: 1em;
+	}
+
+
+	.nav__menu .pipe::after {
+		content: '|';
+		font-size: 10px;
+		font-weight: bold;
+		margin-left: 2em;
+	}
+}
+
+/* Carousel section */
+.carousel-cell {
+  width: 100%; /* full width */
+  height: 484px; /* height of carousel */
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 10px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+  background: transparent;
+  border: 1px solid white;
+  margin: 0 2px;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+.slide {
+	margin-left: 3.5em;
+	margin-top: 90px;
+}
+
+.slide-one {
+  	background:  url(../img/slider1.png);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+
+}
+
+.slide-two {
+  background:  url(../img/slider2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.slide-three {
+	background:  url(../img/slider3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.slide__title {
+	font-family: "Adelle Sans Sage Bold", serif;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 0.1em;
+	font-size: 1.5em;
+	animation: pop-in .6s cubic-bezier(0,.85,.26,1.22) forwards;
+	opacity: 0;
+	animation-delay: .6s;
+}
+
+.slide__text {
+	font-size: .9em;
+	font-family: "Adelle Sans Sage", serif;
+	font-weight: light;
+	color: #fff;
+	animation: pop-in .6s cubic-bezier(0,.85,.26,1.22) forwards;
+	opacity: 0;
+	animation-delay: .8s;
+
+}
+
+.slide__button {
+	padding: .5em 0;
+	width: 195px;
+	text-align: center;
+	border: 2px solid #fff;
+	margin-top: 1.75em;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	animation: pop-in .6s cubic-bezier(0,.85,.26,1.22) forwards;
+	opacity: 0;
+	animation-delay: .95s;
+	transition: all .3s ease-out;
+}
+
+.slide__button:hover {
+	transform: scale(0.9);
+	background: white;
+	color: black;
+}
+
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+@media(min-width: 769px) {
+	.slide__title {
+		font-size: 2em;
+	}
+
+	.slide__text {
+		font-size: 1em;
+		line-height: 1.25;
+	}
+}
+
+/* Recruiting Section */
+.recruiting {
+	padding: 3em 2em;
+	background:#F5F5F5;
+}
+
+
+.recruiting__title {
+	text-align: center;
+	font-size: 1.25em;
+	color: #003349;
+	font-family: "Adelle Sans Sage", serif;
+	opacity: 0;
+	transition: opacity .5s ease-out;
+	will-change: opacity;
+	transition-delay: .2s;
+}
+
+.recruiting__title.is-visible {
+	opacity: 1;
+}
+
+.recruiting__text {
+	text-align: center;
+	font-family: "Adelle Sans Sage", serif;
+	font-weight: light;
+	font-size: .8em;
+	color: #2C2A29;
+	opacity: 0;
+	transition: opacity .5s ease-out;
+	will-change: opacity;
+	transition-delay: .5s;
+}
+
+.recruiting__text.is-visible {
+	opacity: 1;
+}
+
+.recruiting__image {
+	display: block;
+	margin: 0 auto;
+}
+
+@media(min-width: 769px) {
+
+	.recruiting {
+		padding: 4em;
+	}
+	.recruiting__title {
+		font-size: 2em;
+	}
+	
+	.recruiting__text {
+		font-size: 1em;
+	}
+}
+
+/* Team Section */
+.team {
+	background:  url(../img/teambg.jpg);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 2.5em 0;
+	position: relative;
+}
+
+.team-text  {
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	padding-top: 1em;
+	font-family: "Adelle Sans Sage Bold", serif;
+	font-size: 1.25em;
+}
+
+.different {
+	color: #00DF00;
+	font-size: 1.5em;
+}
+
+.team-image {
+	display: block;
+	margin: 1em auto;
+	width: 10em;
+	height: auto;
+}
+
+.team__video,.team__image  {
+	margin-top: 2.5em;
+}
+
+.video-text {
+	text-align: center;
+	color: #fff;
+	font-family: "Adelle Sans Sage", serif;
+	font-weight:bold;
+}
+
+.video-button {
+	text-align: center;
+	width: 100px;
+	padding: 1em 1.75em;
+	display: block;
+	margin: 0 auto;
+	background: #CE0058;
+	color: #fff;
+	font-size: .5em;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+#vid {
+	display: none;
+	margin-top: 2em;
+	position: absolute;
+	 top: 50%; 
+	 left: 50%; 
+	 transform: translate(-50%, -50%);
+	 box-shadow: 0 0 0 50vmax  rgba(0,0,0,.8);
+}
+
+iframe {
+	width: 300px;
+	height: 200px;
+}
+
+
+#close {
+	color: #fff;
+	cursor: pointer;
+	position: absolute;
+	left: -5%;
+	top: -10%;
+}
+
+.close-icon {
+	width:2em;
+	height: auto;
+}
+
+@media(min-width:769px) {
+	.team {
+		display: flex;
+		justify-content: space-around;
+		padding: 4em 0;
+	}
+
+	.team-text {
+		font-size: 2.25em;
+		text-align: left;
+	}
+
+	.team-image {
+		width: 13em;
+		height: auto;
+		margin-top: .5em;
+	}
+
+	.team__video {
+		margin-top: 3.7em;
+	}
+
+	iframe {
+		width: 600px;
+		height: 400px;
+	}
+}
+
+/* Interest team section */
+.interest{
+	padding: 1em 0;
+}
+.interest__title {
+	text-align: center;
+	font-size: 2em;
+	color: #003349;
+	font-family: "Adelle Sans Sage", serif;
+}
+
+.interest__text {
+	text-align: center;
+	font-size: .7em;
+	color: #2C2A29;
+	font-family: "Adelle Sans Sage", serif;
+	padding: 1.25em 0;
+}
+
+.interest__button {
+	font-family:"Adelle Sans Sage", serif;
+	text-align: center;
+	width: 150px;
+	padding: 1em 1.75em;
+	display: block;
+	margin: 3em  auto;
+	border: 2px solid #CE0058;
+	color: #CE0058;
+	font-size: .5em;
+	font-weight: 100;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	transition: color .3s ease-out;
+}
+
+.interest__button:hover {
+	color: #fff;
+}
+
+.interest__button,
+.interest__button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.interest__button::before,
+.interest__button::after {
+  background: #CE0058;
+  content: '';
+  position: absolute;
+  z-index: -5;
+}
+
+.interest__button {
+  overflow: hidden;
+}
+
+.interest__button::after {
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+
+.interest__button:hover:after {
+  height: 100%;
+  width: 135%;
+}
+
+
+.interest__image {
+	display: block;
+	margin: 5em auto;
+	width: 20em;
+	height: auto;
+}
+
+
+@media(min-width: 769px) {
+	.interest__text {
+		font-size: 1.125em;
+	}
+
+	.interest__image {
+		width: 30em;
+		height: auto;
+	}
+}
+
+@media(min-width:1100px) {
+	.interest__image {
+		width: 45em;
+		height: auto;
+	}
+}
+
+/* Skills section */
+
+.grow,.build,.discover {
+	margin: 1.75em 0;
+	padding-bottom: 2em;
+}
+
+.grow__image,.build__image,.discover__image {
+	display: block;
+	margin: 0 auto;
+	width: 4em;
+	height: auto;
+}
+.grow__title,.build__title,.discover__title {
+	text-align: center;
+	color: #00E400;
+	font-size: 1.25em;
+}
+
+.grow__text, .build__text,.discover__text {
+	text-align: center;
+	font-family:"Adelle Sans Sage", serif;
+	font-size: .8em;
+}
+
+@media(min-width:769px) {
+	.skills {
+		display: flex;
+		justify-content: center;
+		margin: 3em 0;
+	}
+
+	.grow,.build,.discover {
+		margin: 0 3em;
+	}
+
+	.grow__text, .build__text,.discover__text {
+		font-size: 1em;
+	}
+}
+
+/* Testimonial Section */
+.testimonial-cell {
+  width: 100%; /* full width */
+  height: 356px; /* height of carousel */
+  text-align: center;
+  background:  url(../img/testimonial.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-text {
+	align-self: center;
+	color: #fff;
+	font-size: 1em;
+	/*position: relative;*/
+	font-family: "Adelle Sans Sage", serif;
+}
+
+/*.testimonial-text::before {
+	background: url(../img/left-quotation.png);
+	position: absolute;
+	left: -7%;
+	top: -15%;
+	width: 15px;
+	height: 29px;
+	content: ' ';
+}
+
+.testimonial-text::after {
+	background: url(../img/right-quotation.png);
+	position: absolute;
+	right: -6%;
+	bottom: -15%;
+	width: 15px;
+	height: 29px;
+	content: ' ';
+}*/
+
+@media(min-width:769px) {
+	.testimonial-text {
+		font-size: 2em;
+	}
+}
+
+/* Jobs Section */
+
+.jobs {
+	padding: 8em 0 4em 0;
+	opacity: 0;
+	transition: opacity .5s ease-out;
+	will-change: opacity;
+	transition-delay: .5s;
+}
+
+.jobs.is-visible {
+	opacity: 1;
+}
+
+.jobs__title,.jobs__intro {
+	text-align: center;
+	font-family: "Adelle Sans Sage", serif;
+}
+
+.jobs__title {
+	font-size: 1.25em;
+	color: #003349;
+}
+
+.jobs__intro {
+	font-size: .8em;
+}
+
+@media(min-width:769px) {
+	.jobs__title {
+		font-size: 2em;
+	}
+
+	.jobs__intro {
+		font-size: 1.125em;
+	}
+}
+
+.job-board {
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	position: relative;
+	padding-top: 8em;
+	padding-bottom: 2em;
+}
+
+.skew {
+	background: #fff;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 130px;
+	transform: skewY(-5deg);
+	transform-origin: top left;
+}
+
+
+.job {
+  background:rgba(2, 35, 52,.5);
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+  border-radius: .25em;
+  margin: 1em auto;
+  transition: background .5s ease-out;
+}
+
+.job:hover {
+	background: #022334;
+}
+
+.job__title {
+  margin-top: .3em;
+  font-family: "Adelle Sans Sage", serif;
+  color: #fff;
+}
+
+.job__location {
+  font-size: .6em;
+  text-transform: uppercase;
+  margin-top: .5em;
+  font-family: "Adelle Sans Sage", serif;
+  color: #fff;
+}
+
+.location_svg {
+	width: .8em;
+	height: auto;
+	margin-right: .25em;
+}
+
+
+.job__button {
+  background: #53AF31;
+  width: 7em;
+  padding: .5em .75em;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  margin: 0 auto;
+  font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Adelle Sans Sage", serif;
+}
+
+@media(min-width: 769px) {
+	.jobs-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		width: 80%;
+		margin: 3em auto;
+	}
+
+	.job {
+		margin: .5em 1em .5em;
+		flex: 1 1 calc(50% - 2em);
+	}
+
+	.one,.three {
+		margin-right: .5em;
+	}
+
+	.two,.four {
+		margin-left: .5em;
+	}
+
+}
+
+@media(min-width: 1000px) {
+	.jobs-wrapper {
+		width: 55%;
+	}
+}
+
+/* rewards section */
+.rewards {
+	background:  url(../img/rewards.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	min-width: 100%;
+	height: 220px;
+	position: relative;
+}
+
+.rewards__past,.rewards__present {
+	margin: 0;
+	color: #fff;
+	font-size: 1em;
+	font-family:"Adelle Sans Sage", serif;
+}
+
+.rewards__past {
+	margin-left: 1.5em;
+	padding-top:1em;
+}
+
+.rewards__present {
+	position: absolute;
+	bottom: 5%;
+	left: 40%;
+}
+
+@media(min-width:769px) {
+	.rewards {
+		height: 400px;
+	}
+
+	.rewards__past,.rewards__present {
+		font-size: 1.25em;
+	}
+}
+
+@media(min-width:1000px) {
+	.rewards {
+		height: 500px;
+	}
+}
+
+/* working */
+.working {
+	padding: 4em 0;
+}
+.working__text {
+	font-size: 1em;
+	font-family:"Adelle Sans Sage", serif;
+	text-align: center;
+	color: #512675;
+	opacity: 0;
+	transition: opacity .5s ease-out;
+	will-change: opacity;
+	transition-delay: .2s;
+}
+
+.working__text.is-visible {
+	opacity: 1;
+}
+
+@media(min-width:769px) {
+	.working__text {
+		font-size: 2em;
+	}
+}
+
+/* digital */
+
+.digital {
+	color: #fff;
+	font-family:"Adelle Sans Sage", serif;
+}
+.digital__woman {
+	display: block;
+	width: 25em;
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.digital__intro {
+	 font-family:"Adelle Sans Sage", serif;
+	 font-size: .75em;
+	 background:  url(../img/reading.png);
+	 background-size: cover;
+	 background-repeat: no-repeat;
+}
+
+.digital__text {
+	text-align: center;
+	font-size: 2em;
+	font-family:"Adelle Sans Sage", serif;
+	letter-spacing:.1em;
+}
+
+.digital__list {
+	margin-top: 2em;
+	font-size: 1.25em;
+}
+
+@media(min-width:769px) {
+	.digital {
+		display: flex;
+	}
+
+	.digital__woman {
+		width:  423px;
+		height: 370px;
+	}
+
+	.digital__intro {
+		width: 916px;
+		height: 370px;
+	}
+
+	.digital__image {
+		margin-right: 1.5em;
+	}
+
+	.digital__text {
+		text-align: left;
+		font-size: 2.25em;
+		margin-top: 3.5em;
+		margin-left: 1em;
+	}
+
+
+}
+
+
+/*ideas*/
+.ideas {
+	margin-top: 1.5em;
+	height: 533px;
+	background:  url(../img/ideas.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.ideas__text {
+	font-size: 2em;
+	display: block;
+	letter-spacing: 1.5px;
+	color: #fff;
+	text-align: center;
+	transform: translateY(200px);
+	font-family:"Adelle Sans Sage", serif;
+}
+
+.ideas__text::before {
+	content: '';
+	background: url(../img/left-quotation.png);
+	position: absolute;
+	width: 16px;
+	height: 30px;
+	 margin-left: -10%;
+	 background-repeat:no-repeat;
+}
+
+.ideas__text::after {
+	content: '';
+	background: url(../img/right-quotation.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 17px;
+	height: 30px;
+	margin-left: 5%;
+	margin-top: 8%;
+}
+
+@media(min-width:1180px) {
+
+	.ideas {
+		position: relative;
+	}
+	.ideas__text{
+		position: absolute;
+		right: 7%;
+		top: 30%;
+		transform: none;
+		text-align: left;
+	}
+}
+
+/* campus */
+
+.campus {
+	margin: 0 auto;
+	display: block;
+}
+
+.campus__title ,.campus__text{
+	text-align: center;
+	font-family:"Adelle Sans Sage", serif;
+}
+
+.campus__image {
+	text-align: center;
+}
+
+
+@media(min-width: 1100px) {
+	.campus {
+		display: flex;
+		margin-top: 1.5em;
+	}
+
+	.campus__info,.campus__image {
+		flex: 1 1 1;
+	}
+
+	.campus__title {
+		font-size: 2em;
+	}
+
+	.campus__text {
+		font-size: 1.125em;
+	}
+
+	.campus__info {
+		flex-grow: 3;
+	}
+
+	.campus__info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media(min-width:1250px) {
+	.campus__text,.campus__title {
+		text-align: left;
+		padding: 0 5em;
+	}
+}
+
+/*contact */
+.contact {
+	background: #EFEFEF;
+	padding: 3em 0;
+}
+.contact__title {
+	font-size: 23px;
+	font-family:"Adelle Sans Sage", serif;
+	text-align: center;
+	padding: 1em 0;
+}
+label,input {
+	display: block;
+	margin: 0  auto;
+}
+
+label {
+	font-size: 13px;
+	font-family:"Adelle Sans Sage", serif;
+	text-align: center;
+}
+
+input {
+	width: 350px;
+	height: 50px;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+form {
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+.star {
+	color: #CE0058;
+}
+
+.attach {
+	margin-left: .75em;
+	text-decoration: none;
+	color: #CE0058;
+}
+.form__button {
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	padding: .75em 0;
+	background: #CE0058;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	font-family:"Adelle Sans Sage", serif;
+	margin: 0em auto;
+	cursor: pointer;
+}
+
+@media(min-width:769px)  {
+
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		width: 80%;
+	}
+
+	input {
+		width: 440px;
+		margin-bottom: 1em;
+	}
+
+	.form-one ,.form-two, .form-three,.form-four {
+		flex: 1 1 50%;
+	}
+
+	label {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.form__button {
+		margin-top: 3em;
+	}
+}
+
+@media(min-width: 1100px) {
+	label {
+		text-align: left;
+		margin-left: 5em;
+	}
+
+	.form__button {
+		margin: 0;
+		margin-right: 3.5em;
+		margin-top: 3em;
+	}
+}
+
+/* footer */
+footer {
+	background: grey;
+	padding: 1em 0;
+}
+
+.footer__logo {
+	width: 109px;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+.footer__text {
+	color: #fff;
+	font-family:"Adelle Sans Sage", serif;
+	font-size: 11px;
+	text-align: center;
+}
+
+.footer__social {
+	text-align: center;
+}
+
+@media(min-width:769px) {
+	footer {
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+	}
+
+	.footer__image {
+		display: flex;
+	}
+
+	.footer__logo {
+		align-self: center;
+	}
+
+	.footer__image,.footer__text,.footer__social {
+		flex: 1;
+	}
+
+	.footer__social {
+		text-align: right;
+		margin-right: 2.5em;
+	}
+
+	.footer__logo {
+		margin: 0;
+		margin-left: 2.5em;
+	}
+}
